@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/property_data_cleaning/__init__.py
+src/property_data_cleaning/duplicate_detection.py
+src/property_data_cleaning/email_sender.py
+src/property_data_cleaning/file_handler.py
+src/property_data_cleaning/missing_value.py
+src/property_data_cleaning/normalization.py
+src/property_data_cleaning/processor.py
+src/property_data_cleaning/validators.py
+src/property_data_cleaning.egg-info/PKG-INFO
+src/property_data_cleaning.egg-info/SOURCES.txt
+src/property_data_cleaning.egg-info/dependency_links.txt
+src/property_data_cleaning.egg-info/entry_points.txt
+src/property_data_cleaning.egg-info/requires.txt
+src/property_data_cleaning.egg-info/top_level.txt
+tests/test_processor.py

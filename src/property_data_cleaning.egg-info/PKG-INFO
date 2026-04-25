@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: property-data-cleaning
+Version: 0.1.0
+Summary: A property data cleaning and validation system for duplicate detection, normalization, missing value prediction, and rule-based validation.
+Author: AI Assistant
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.26
+Requires-Dist: pydantic>=2.10
+Requires-Dist: python-Levenshtein>=0.21.1
+
+# Property Data Cleaning System
+
+This project provides a foundation for processing large property datasets with AI and rule-based validation.
+
+Key features:
+- Duplicate detection using fuzzy matching
+- Address and parcel normalization
+- Missing value prediction
+- Rule-based validation
+- Workflow orchestration for ingestion, cleaning, standardization, and validation
+
+## Project Structure
+- `src/property_data_cleaning/` - core cleaning and validation modules
+- `tests/` - unit tests and examples
+
+## Installation
+1. Create a Python virtual environment:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+Use the `property-data-cleaning` console script after installation, or import `PropertyDataCleaner` from `property_data_cleaning.processor`.
+
+## Next Steps
+- Implement the ingestion pipeline
+- Add missing value prediction and rule validation
+- Create sample data fixtures and end-to-end integration tests

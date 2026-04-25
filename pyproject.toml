@@ -1,0 +1,22 @@
+[project]
+name = "property-data-cleaning"
+version = "0.1.0"
+description = "A property data cleaning and validation system for duplicate detection, normalization, missing value prediction, and rule-based validation."
+readme = "README.md"
+authors = [
+  { name = "AI Assistant" }
+]
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.26",
+  "pydantic>=2.10",
+  "python-Levenshtein>=0.21.1"
+]
+
+[project.scripts]
+property-data-cleaning = "property_data_cleaning.processor:main"
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,2 @@
+[console_scripts]
+property-data-cleaning = property_data_cleaning.processor:main

@@ -1,0 +1,5 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory exists.
+- [x] Scaffold the initial project.
+- [x] Create the base package and module stubs.
+- [x] Add a README and basic project metadata.
+- [x] Prepare tests and initial validation flow.
